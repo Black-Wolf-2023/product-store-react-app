@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card .img,
+.card .img img {
+  width: 100%;
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.card .info .title {
+  font-weight: 600;
+  color: rgb(68, 79, 90);
+}
+.card .info .title span {
+  display: inline-block;
+  margin-left: 20px;
+  color: lightseagreen;
+}
+.sizes-price {
+  display: flex;
+  justify-content: space-between;
+}
+.sizes-price .sizes {
+  display: flex;
+  gap: 20px;
+}
+.sizes-price .sizes span {
+  background-color: lightseagreen;
+  color: rgb(68, 79, 90);
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.card .info .btn button {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  background-color: lightslategrey;
+  color: aliceblue;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
